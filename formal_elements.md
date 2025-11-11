@@ -1,7 +1,8 @@
 <div dir="rtl" lang="he">
 
 # Levon 
-<img src="https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/logo.png" alt="drawing" width="40"/>
+
+<img src="https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/logo.png" alt="drawing" width="70"/>
 
 **לבון – הרגשות יוצאים לשחק**
 
@@ -9,10 +10,9 @@
 
 לבון הוא משחק שבו ילדים לומדים לזהות רגשות ולהגיב להם בדרכים שונות. בכל שלב הם פוגשים דמות שמבטאת רגש דרך רמזים חזותיים ויכולים לשאול, לשוחח ולבחור כיצד להגיב. אין תשובה אחת נכונה, אלא התנסות ברעיונות של תמיכה, אמפתיה ויצירת קשר. המשחק מזמין את הילד לגלות שלפעמים הדבר החשוב ביותר הוא פשוט להיות שם ולהקשיב.
 
-המשחק מיועד למחשב
+המשחק מיועד למחשב/מובייל
 
-![ציור מסך לדוגמה](https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/levon.png)
-
+<img src="https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/levon.png" alt="drawing" width="200"/>
 ---
 
 
