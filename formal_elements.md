@@ -1,7 +1,7 @@
 <div dir="rtl" lang="he">
 
 # Levon 
-![logo](https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/logo.png)
+<img src="https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/logo.png" alt="drawing" width="40"/>
 
 **לבון – הרגשות יוצאים לשחק**
 
