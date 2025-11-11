@@ -1,6 +1,7 @@
 <div dir="rtl" lang="he">
 
-# Levon
+# Levon 
+![logo](https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/logo.png)
 
 **לבון – הרגשות יוצאים לשחק**
 
@@ -10,7 +11,7 @@
 
 המשחק מיועד למחשב
 
-שימו כאן ציור-מסך המתאר את המשחק כפי שאתם רואים אותו בדמיון שלכם.
+![ציור מסך לדוגמה](https://github.com/Games-Development-Course/Levon-game/blob/main/screenShots/levon.png)
 
 ---
 
