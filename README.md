@@ -42,6 +42,7 @@
 ריפוי בעיסוק - שירה נכטנשטרן, רותם לוי ואוראל דן.
 
 ### UML
+```mermaid
 classDiagram
     class QuizStep {
         +Sprite image
