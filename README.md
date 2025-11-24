@@ -40,3 +40,53 @@
 ### שמות חברי הצוות:
 מדמח - שגית מלכה, אביב נאמן ואביב תורג'מן.
 ריפוי בעיסוק - שירה נכטנשטרן, רותם לוי ואוראל דן.
+
+### UML
+classDiagram
+    class QuizStep {
+        +Sprite image
+        +string[] answers
+        +int correctIndex
+    }
+
+    class UIController {
+        +Image questionImage
+        +Button[] answerButtons
+        +TextMeshProUGUI tryAgainText
+        +event Action<int> OnAnswerSelected()
+        +DisplayStep(QuizStep)
+        +ShowTryAgain(float)
+        +SetInteractableButtons(bool)
+    }
+
+    class QuizManager {
+        +QuizStep[] steps
+        +int maxErrors
+        -int currentStep
+        -int errors
+        +UIController uiController
+        +SceneService sceneService
+        +Start()
+        +LoadStep(int)
+        +HandleAnswer(int)
+    }
+
+    class ISceneService {
+        <<interface>>
+        +LoadScene(string)
+    }
+
+    class SceneService {
+        +LoadScene(string)
+    }
+
+    class ButtonSoundPlayer {
+        +AudioClip clickClip
+        +PlayClick()
+    }
+
+    QuizManager --> UIController : uses
+    UIController --> QuizStep : displays
+    QuizManager --> SceneService : uses
+    SceneService ..|> ISceneService
+    ButtonSoundPlayer ..> Button
